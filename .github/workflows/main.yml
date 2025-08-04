@@ -28,7 +28,7 @@ jobs:
         uses: docker/login-action@v2
         with:
           username: ${{ secrets.atulzpawar86 }}
-          password: ${{ secrets.Suvarna@86 }}
+          password: ${{ secrets.Ovi@1121 }}
 
       - name: Build Docker image
         run: docker build -t ${{ secrets.atulzpawar86 }}/node-app:latest .
