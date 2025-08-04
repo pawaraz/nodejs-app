@@ -28,10 +28,10 @@ jobs:
         uses: docker/login-action@v2
         with:
           username: ${{ atulzpawar86 }}
-          password: ${{ Suvarna@86 }}
+          password: ${{ dckr_pat_M32X4zbESUfUfu5ime36tJ0PfmA }}
 
       - name: Build Docker image
-        run: docker build -t ${{ secrets.atulzpawar86 }}/node-app:latest .
+        run: docker build -t ${{ atulzpawar86 }}/node-app:latest .
 
       - name: Push Docker image
-        run: docker push ${{ secrets.atulzpawar86 }}/node-app:latest
+        run: docker push ${{ atulzpawar86 }}/node-app:latest
