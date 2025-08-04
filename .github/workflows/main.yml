@@ -27,8 +27,8 @@ jobs:
       - name: Log in to DockerHub
         uses: docker/login-action@v2
         with:
-          username: ${{ secrets.atulzpawar86 }}
-          password: ${{ secrets.Suvarna@86 }}
+          username: ${{ atulzpawar86 }}
+          password: ${{ Suvarna@86 }}
 
       - name: Build Docker image
         run: docker build -t ${{ secrets.atulzpawar86 }}/node-app:latest .
